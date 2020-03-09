@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*-----Header-----*/
   .header {
-    position: fixed;
+    background-color: #EE1F41; 
     top: 0;
     width: 100%;
     left: 0;
@@ -165,7 +165,7 @@ button.get_in_touch--btn:hover {
 
 /*-----SECTION ONE-------*/
     .section__one {
-        background: url('/assets/Hero_bg.png') no-repeat;
+        background: url('./assets/Hero_bg.png') no-repeat;
         background-size: cover;
         height: 100vh;
         width: 100%;
