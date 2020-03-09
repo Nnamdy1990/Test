@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @font-face {
-  src: url("/assets//fonts/SmallTypeWriting.ttf") format("ttf");
+  src: url("./assets//fonts/SmallTypeWriting.ttf") format("ttf");
   font-family: 'smallTypeWriting';
   font-weight: normal;
   font-style: normal;
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @font-face {
-  src: url("/assets/fonts/SmallTypeWritingMedium.ttf") format("ttf");
+  src: url("./assets/fonts/SmallTypeWritingMedium.ttf") format("ttf");
   font-family: 'smallTypeWriting';
   font-weight: medium;
   font-style: medium;
@@ -67,7 +67,7 @@ body {
   min-width: 320px;
 }
 
-.header .spano {
+/* .header .spano {
   padding-left: 100px;
   color: white;
   cursor: pointer;
@@ -83,7 +83,7 @@ body {
   .header .spano {
     display: none;
   }
-}
+} */
 
 @media screen and (max-width: 1100px) {
   .header {
@@ -113,9 +113,9 @@ body {
   }
 }
 
-.header .siteLogoBw {
+/* .header .siteLogoBw {
   display: none;
-}
+} */
 
 @media screen and (max-width: 500px) {
   .header .siteLogoDefault, .header .siteLogoBw {
