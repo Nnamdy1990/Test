@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 @font-face {
-    src: url('/assets//fonts/SmallTypeWriting.ttf') format('ttf');
+    src: url('./assets//fonts/SmallTypeWriting.ttf') format('ttf');
     font-family: 'smallTypeWriting';
     font-weight: normal;
     font-style: normal;
@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   @font-face {
-    src: url('/assets/fonts/SmallTypeWritingMedium.ttf') format('ttf');
+    src: url('./assets/fonts/SmallTypeWritingMedium.ttf') format('ttf');
     font-family: 'smallTypeWriting';
     font-weight: medium;
     font-style: medium;
@@ -100,9 +100,9 @@ h1, h2, h3, h4, h5, h6 {
          }
     }
 
-    .siteLogoBw {
-        display: none;
-    }
+//     .siteLogoBw {
+
+//     }
 
     .siteLogoDefault, .siteLogoBw {
         @media screen and (max-width: 500px) {
