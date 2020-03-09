@@ -113,9 +113,9 @@ body {
   }
 }
 
-/* .header .siteLogoBw {
-  display: none;
-} */
+.header .siteLogoBw {
+  color: white;
+}
 
 @media screen and (max-width: 500px) {
   .header .siteLogoDefault, .header .siteLogoBw {
